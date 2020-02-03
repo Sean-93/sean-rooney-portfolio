@@ -1,25 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sean Rooney</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="row header">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-3">
+        <h1 class="text-light bg-info text-center">
+          Sean Rooney
+        </h1>
+      </div>
+      <div class="col-sm-2"></div>
 
-<body>
-    <h1>
-        Sean Rooney
-    </h1>
-
-    <nav>
+      <nav class="col-sm-3 text-center navbar-light">
         <ul>
-            About Portfolio Contact
+          <button type="button" class="btn btn-light">
+            <a class="text-secondary bg-light" href="#">About</a>
+          </button>
+          <button type="button" class="btn btn-light">
+            <a class="text-secondary bg-light" href="#">Portfolio</a>
+          </button>
+          <button type="button" class="btn btn-light">
+            <a class="text-secondary bg-light" href="#">Contact</a>
+          </button>
         </ul>
-    </nav>
+      </nav>
+      <div class="col-sm-2"></div>
+    </div>
 
-</body>
-
+    <div class="row jumbotron bg-secondary">
+      <div class="col-sm-2"></div>
+      <article class="col-sm-8  bg-light text-info">
+        <h1>
+          Contact
+        </h1>
+        <form>
+            <div class="form-group">
+              <label for="exampleInputName1">Name</label>
+              <input type="email" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="John Smith">
+              <br>
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <br>
+              <label for="exampleInputMessage1">Message</label>
+              <input type="email" class="form-control" id="exampleInputMessage1" aria-describedby="messageHelp" placeholder="">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </article>
+      <div class="col-sm-2"></div>
+    </div>
+    <footer class="row bg-dark">
+      <div class="col-sm-12 bg-dark">
+        <div class="row bg-dark"></div>
+        <div class="col-sm-12 bg-dark"></div>
+      </div>
+    </footer>
+  </body>
 </html>
