@@ -1,11 +1,10 @@
-/* .contact-footer {
-    margin-top: 130px;
-} */
 
 footer {
     width: 100%;
     background-color:teal;
     position: fixed;
     bottom: 0;
-    padding: 20px;
+    padding: 10px;
+    display:block;
+    overflow: visible;
 }
