@@ -13,4 +13,13 @@ footer {
     width: 100%;
     max-width: 150%;
     min-width: 50%;
+    margin: 50px;
+}
+
+.port-txt {
+    width: 100%;
+    max-width: 150%;
+    min-width: 50%;
+    margin-left: 60px;
+    margin-right: 60px;
 }
