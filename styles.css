@@ -8,3 +8,9 @@ footer {
     display:block;
     overflow: visible;
 }
+
+.port-img {
+    width: 100%;
+    max-width: 150%;
+    min-width: 50%;
+}
